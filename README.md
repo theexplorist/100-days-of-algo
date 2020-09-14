@@ -10,3 +10,5 @@
 - [x] Unique BST 2
 - [x] Max Area Of Island
 - [x] Number Of Island 
+- [x] Number Of Distinct Islands 
+- [x] All Nodes Distance K in Binary Tree
