@@ -1,5 +1,5 @@
 //Recursive
-Time Complexity - O(n ^ 3)
+Time Complexity - O(3 ^ n)
 Space Complexity - O(n + m) recursive stack space
 class Solution {
     public int minDistance(String word1, String word2) {
