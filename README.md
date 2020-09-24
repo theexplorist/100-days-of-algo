@@ -27,3 +27,8 @@
 - [x] 1143. Longest Common Subsequence
 - [x] Longest Common Substring
 - [x] 718. Maximum Length of Repeated Subarray(Longest Common Substring Variation)
+
+# More String Dp Problems
+- [x] Longest Increasing Subsequence
+- [x] Minimum Deletions To Make Sequence Sorted(complete LIS pattern).
+- [x] Minimum Deletions And Insertions To Make Two Strings Equal(complete LCS pattern)
