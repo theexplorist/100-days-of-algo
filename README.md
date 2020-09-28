@@ -37,3 +37,7 @@
 - [x] 1035. Uncrossed Lines (LCS variant)
 - [x] 1458. Max Dot Product of Two Subsequences (LCS variant)
 - [x] 516. Longest Palindromic Subsequence
+
+# More DP Problems(Asked By Google) dp - 5
+- [x] 688. Knight Probability in Chessboard
+- [x] 935. Knight Dialer(Very Similar To 688, follows similar template)
