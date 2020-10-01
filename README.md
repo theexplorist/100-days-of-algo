@@ -41,3 +41,8 @@
 # More DP Problems(Asked By Google) dp - 5
 - [x] 688. Knight Probability in Chessboard
 - [x] 935. Knight Dialer(Very Similar To 688, follows similar template)
+
+# dp - 6
+- [x] All palindromic subsequences
+- [x] 740. Delete and Earn (House Robber Variant)
+- [x] 486. Predict the Winner (Min - Max Variant)
