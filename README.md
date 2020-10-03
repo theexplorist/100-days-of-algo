@@ -46,3 +46,8 @@
 - [x] All palindromic subsequences
 - [x] 740. Delete and Earn (House Robber Variant)
 - [x] 486. Predict the Winner (Min - Max Variant)
+
+# More Dynamic Programming dp - 7
+- [x] 1092. Shortest Common Supersequence(Hard)
+- [x] 446. Arithmetic Slices(Medium) 
+- [x] 877. Stone Game(Medium) (Min - Max Variant)
