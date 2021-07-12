@@ -1,0 +1,61 @@
+class Solution {
+    
+    static int count;
+    public int totalNQueens(int n) {
+        count = 0;
+        place(new int[n][n], 0, n);
+        return count;
+    }
+    
+    private static boolean canPlace(int[][] arr, int cr, int cc, int n) {
+		// TODO Auto-generated method stub
+
+		for (int row = 0; row < cr; row++) {
+			if (arr[row][cc] == 1) {
+				return false;
+			}
+		}
+
+		int row = cr;
+		int col = cc;
+
+		while (row >= 0 && col >= 0) {
+			if (arr[row][col] == 1) {
+				return false;
+			}
+			row--;
+			col--;
+		}
+
+		row = cr;
+		col = cc;
+
+		while (row >= 0 && col < n) {
+			if (arr[row][col] == 1) {
+				return false;
+			}
+			row--;
+			col++;
+		}
+
+		return true;
+	}
+
+	public static void place(int[][] arr, int cr, int n) {
+
+		
+		if (cr == n) {
+            count++;
+			
+			return;
+		}
+
+		for (int cc = 0; cc < n; cc++) {
+			if (canPlace(arr, cr, cc, n)) {
+				arr[cr][cc] = 1;
+				place(arr, cr + 1, n);
+				arr[cr][cc] = 0;
+			}
+		}
+	}
+}
